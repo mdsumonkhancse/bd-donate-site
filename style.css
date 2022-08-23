@@ -1,4 +1,5 @@
 body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -121,4 +122,56 @@ body {
 
 .humble-color {
     color: #FF5959;
+}
+
+.bonus-part {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    padding-left: 5%;
+    width: 50%;
+}
+
+.half-width img {
+    width: 50%;
+    height: 400px;
+}
+
+.bonus-part p {
+    text-align: left;
+}
+
+.my-update {
+    margin-bottom: 80px;
+}
+
+.full-mail-part {
+    width: 600px;
+    height: 190px;
+    margin-left: 620px;
+    background-color: antiquewhite;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.mail-body {
+    padding-top: 80px;
+}
+
+
+.mail-button-color {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.email {
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: silver;
+    padding: 10px 40px;
 }
